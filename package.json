@@ -1,6 +1,6 @@
 {
   "name": "mpu-calc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MPU-Calc is a superfast calculator package on NPM. With precision and ease, developers can quickly perform complex calculations. Upgrade your toolkit and experience lightning-fast calculations with MPU-Calc today!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
