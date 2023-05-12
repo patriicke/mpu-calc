@@ -1,6 +1,4 @@
-export declare const calculator: {
-    add: (n1: number, n2: number) => number;
-    multiply: (n1: number, n2: number) => number;
-    subtract: (n1: number, n2: number) => number;
-    divide: (n1: number, n2: number) => number;
-};
+export declare const add: (n1: number, n2: number) => number;
+export declare const subtract: (n1: number, n2: number) => number;
+export declare const multiply: (n1: number, n2: number) => number;
+export declare const divide: (n1: number, n2: number) => number;
