@@ -1,11 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
-const add = (n1, n2) => n1 + n2;
-exports.add = add;
+exports.calculator = void 0;
+const add = (n1, n2) => n1 + n2 + 10;
 const subtract = (n1, n2) => n1 - n2;
-exports.subtract = subtract;
 const multiply = (n1, n2) => n1 * n2;
-exports.multiply = multiply;
 const divide = (n1, n2) => n1 / n2;
-exports.divide = divide;
+exports.calculator = { add, multiply, divide, subtract };
